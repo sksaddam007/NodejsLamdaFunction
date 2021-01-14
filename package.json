@@ -12,6 +12,7 @@
   },
   "dependencies": {},
   "scripts": {
+    "locally": "node -e \"console.log(require('./src/index').handler({}));\"",
     "format:fix": "prettier --write **/*.{js,ts,md}",
     "test": "jest"
   }
